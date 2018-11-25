@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'pkg-config'
+  s.add_dependency 'rake-compiler'
 
   s.extensions = ['ext/rbsecp256k1/extconf.rb']
 end
